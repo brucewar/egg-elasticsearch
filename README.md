@@ -1,4 +1,4 @@
-# egg-elasticsearch
+# egg-es
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-elasticsearch.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-elasticsearch
-[travis-image]: https://img.shields.io/travis/eggjs/egg-elasticsearch.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-elasticsearch
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-elasticsearch.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-elasticsearch?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-elasticsearch.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-elasticsearch
-[snyk-image]: https://snyk.io/test/npm/egg-elasticsearch/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-elasticsearch
-[download-image]: https://img.shields.io/npm/dm/egg-elasticsearch.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-elasticsearch
+[npm-image]: https://img.shields.io/npm/v/egg-es.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-es
+[travis-image]: https://img.shields.io/travis/eggjs/egg-es.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-es
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-es.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-es?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-es.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-es
+[snyk-image]: https://snyk.io/test/npm/egg-es/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-es
+[download-image]: https://img.shields.io/npm/dm/egg-es.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-es
 
 <!--
 Description here.
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-elasticsearch --save
+$ npm i egg-es --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-elasticsearch --save
 // {app_root}/config/plugin.js
 exports.elasticsearch = {
   enable: true,
-  package: 'egg-elasticsearch',
+  package: 'egg-es',
 };
 ```
 

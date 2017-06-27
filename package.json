@@ -1,5 +1,5 @@
 {
-  "name": "egg-elasticsearch",
+  "name": "egg-es",
   "version": "1.0.0",
   "description": "elasticsearch client",
   "eggPlugin": {
@@ -51,12 +51,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-elasticsearch.git"
+    "url": "https://github.com/brucewar/egg-elasticsearch"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/brucewar/egg-elasticsearch/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-elasticsearch#readme",
+  "homepage": "https://github.com/brucewar/egg-elasticsearch#readme",
   "author": "brucewar <wjl891014@gmail.com>",
   "license": "MIT"
 }
