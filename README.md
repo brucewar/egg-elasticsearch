@@ -46,7 +46,7 @@ exports.elasticsearch = {
 // {app_root}/config/config.default.js
 exports.elasticsearch = {
   host: 'localhost:9200',
-  apiVersion: '5.4'
+  apiVersion: '6.3'
 };
 ```
 
@@ -57,15 +57,14 @@ Refer to [elasticsearch doc](https://www.elastic.co/guide/en/elasticsearch/clien
 <!-- example here -->
 ```js
 // app/controller/post.js
-
 module.exports = app => {
   return class PostController extends app.Controller {
-    * index(){
+    async index(){
       const pageNum = this.ctx.params.page;
       const perPage = this.ctx.params.per_page;
       const userQuery = this.ctx.request.body.search_query;
       const userId = this.ctx.session.userId;
-      const posts = app.elasticsearch.search({
+      const posts = await app.elasticsearch.search({
         index: 'posts',
         from: (pageNum - 1) * perPage,
         size: perPage,
