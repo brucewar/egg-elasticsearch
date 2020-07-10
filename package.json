@@ -1,6 +1,6 @@
 {
   "name": "egg-es",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "elasticsearch client",
   "eggPlugin": {
     "name": "elasticsearch"
@@ -12,7 +12,7 @@
     "elasticsearch"
   ],
   "dependencies": {
-    "elasticsearch": "^15.1.1"
+    "elasticsearch": "^16.7.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -39,12 +39,11 @@
     "autod": "autod"
   },
   "files": [
-    "index.js",
-    "app.js",
-    "agent.js",
     "config",
-    "app",
-    "lib"
+    "agent.js",
+    "lib",
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "6, 8"

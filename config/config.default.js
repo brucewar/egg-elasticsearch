@@ -5,5 +5,5 @@
  * @member Config#elasticsearch
  */
 exports.elasticsearch = {
-  apiVersion: '6.3'
+  apiVersion: '7.2',
 };
