@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = agent => {
-  require('./lib/elasticsearch')(agent);
+  if (agent.config.elasticsearch.agent) require('./lib/elasticsearch')(agent);
 };

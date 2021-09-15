@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = app => {
-  require('./lib/elasticsearch')(app);
+  if (app.config.elasticsearch.app) require('./lib/elasticsearch')(app);
 };
